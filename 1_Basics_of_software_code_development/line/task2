@@ -1,5 +1,6 @@
 package by.jonline.basic.line.task;
 
+// вычислить значение уравнения по формуле
 public class Task2 {
 
 	public static void main(String[] args) {
