@@ -1,6 +1,6 @@
 package by.jonline.basic.branching.task;
 
-// Найти max(min(a,b);min(c,d))
+// РќР°Р№С‚Рё max(min(a,b);min(c,d))
 
 public class Task2 {
 
@@ -37,7 +37,7 @@ public class Task2 {
 			max = min2;
 		}
 		
-		System.out.println("Результат: " + max);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚: " + max);
 	}
 
 }
