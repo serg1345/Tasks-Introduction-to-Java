@@ -23,7 +23,7 @@ public class Task3 {
 				array[i][j] = (int) (Math.random() * 10);
 			}
 		}
-		System.out.println("�?сходный массив: ");
+		System.out.println("Ð?ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ");
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(Arrays.toString(array[i]));
 		}
