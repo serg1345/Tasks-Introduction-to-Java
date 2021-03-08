@@ -21,12 +21,12 @@ public class Task2 {
 				array[i][j] = (int) (Math.random() * 10);
 			}
 		}
-		System.out.println("�?сходная матрица: ");
+		System.out.println("Ð?ÑÑ…Ð¾Ð´Ð½Ð°Ñ Ð¼Ð°Ñ‚Ñ€Ð¸Ñ†Ð°: ");
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(Arrays.toString(array[i]));
 		}
 		
-		System.out.println("Запрошенные в задаче данные: ");
+		System.out.println("Ð—Ð°Ð¿Ñ€Ð¾ÑˆÐµÐ½Ð½Ñ‹Ðµ Ð² Ð·Ð°Ð´Ð°Ñ‡Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ: ");
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
 				if ((i == j) ||(i + j == array.length - 1)) {
